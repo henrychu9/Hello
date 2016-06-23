@@ -85,7 +85,7 @@ class MyTableViewCell:UITableViewCell{
     }
     static func cellWithString()-> MyTableViewCell {
         let cell = (NSBundle.mainBundle().loadNibNamed("MyTable", owner: nil, options: nil))[0]
-        return cell as! MyTableViewCell
+        return cell as! MyTableViewCell  
     }
     
 }
