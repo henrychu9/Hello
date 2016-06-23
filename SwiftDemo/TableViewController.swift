@@ -81,7 +81,7 @@ class MyTableViewCell:UITableViewCell{
             self.view.addSubview(imageView)
         }
         let height = self.view.bounds.height;
-        NSLog("height:%f", height)  
+        NSLog("height:%f", height)
     }
     static func cellWithString()-> MyTableViewCell {
         let cell = (NSBundle.mainBundle().loadNibNamed("MyTable", owner: nil, options: nil))[0]
