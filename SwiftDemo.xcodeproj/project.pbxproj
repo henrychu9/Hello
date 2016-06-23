@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA12F18A1CF8389400260878 /* MyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12F1891CF8389400260878 /* MyObject.swift */; };
+		BA43466A1CFD34970001F822 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4346691CFD34970001F822 /* TableViewController.swift */; };
+		BA43466C1CFD59ED0001F822 /* MyTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA43466B1CFD59ED0001F822 /* MyTable.xib */; };
 		BAAC5AB01CEDF0710077CC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5AAF1CEDF0710077CC85 /* AppDelegate.swift */; };
 		BAAC5AB21CEDF0710077CC85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5AB11CEDF0710077CC85 /* ViewController.swift */; };
 		BAAC5AB51CEDF0710077CC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAC5AB31CEDF0710077CC85 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		BAAC5ABA1CEDF0720077CC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAC5AB81CEDF0720077CC85 /* LaunchScreen.storyboard */; };
 		BAAC5AC51CEDF0720077CC85 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5AC41CEDF0720077CC85 /* SwiftDemoTests.swift */; };
 		BAAC5AD01CEDF0720077CC85 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5ACF1CEDF0720077CC85 /* SwiftDemoUITests.swift */; };
+		BAAC5AE01CEDF3660077CC85 /* TestOC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAC5ADF1CEDF3660077CC85 /* TestOC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA12F1891CF8389400260878 /* MyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyObject.swift; sourceTree = "<group>"; };
+		BA4346691CFD34970001F822 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BA43466B1CFD59ED0001F822 /* MyTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTable.xib; sourceTree = "<group>"; };
 		BAAC5AAC1CEDF0690077CC85 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC5AAF1CEDF0710077CC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAC5AB11CEDF0710077CC85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		BAAC5ACB1CEDF0720077CC85 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC5ACF1CEDF0720077CC85 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		BAAC5AD11CEDF0720077CC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAC5ADD1CEDF3660077CC85 /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAAC5ADE1CEDF3660077CC85 /* TestOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOC.h; sourceTree = "<group>"; };
+		BAAC5ADF1CEDF3660077CC85 /* TestOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,16 @@
 			children = (
 				BAAC5AAF1CEDF0710077CC85 /* AppDelegate.swift */,
 				BAAC5AB11CEDF0710077CC85 /* ViewController.swift */,
+				BA4346691CFD34970001F822 /* TableViewController.swift */,
+				BA12F1891CF8389400260878 /* MyObject.swift */,
 				BAAC5AB31CEDF0710077CC85 /* Main.storyboard */,
 				BAAC5AB61CEDF0720077CC85 /* Assets.xcassets */,
 				BAAC5AB81CEDF0720077CC85 /* LaunchScreen.storyboard */,
 				BAAC5ABB1CEDF0720077CC85 /* Info.plist */,
+				BAAC5ADE1CEDF3660077CC85 /* TestOC.h */,
+				BAAC5ADF1CEDF3660077CC85 /* TestOC.m */,
+				BAAC5ADD1CEDF3660077CC85 /* SwiftDemo-Bridging-Header.h */,
+				BA43466B1CFD59ED0001F822 /* MyTable.xib */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -193,6 +209,7 @@
 				TargetAttributes = {
 					BAAC5AAB1CEDF0690077CC85 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M86N99N7TR;
 					};
 					BAAC5ABF1CEDF0720077CC85 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,6 +248,7 @@
 			files = (
 				BAAC5ABA1CEDF0720077CC85 /* LaunchScreen.storyboard in Resources */,
 				BAAC5AB71CEDF0720077CC85 /* Assets.xcassets in Resources */,
+				BA43466C1CFD59ED0001F822 /* MyTable.xib in Resources */,
 				BAAC5AB51CEDF0710077CC85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +276,9 @@
 			files = (
 				BAAC5AB21CEDF0710077CC85 /* ViewController.swift in Sources */,
 				BAAC5AB01CEDF0710077CC85 /* AppDelegate.swift in Sources */,
+				BA12F18A1CF8389400260878 /* MyObject.swift in Sources */,
+				BA43466A1CFD34970001F822 /* TableViewController.swift in Sources */,
+				BAAC5AE01CEDF3660077CC85 /* TestOC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +420,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emi.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +437,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emi.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +514,7 @@
 				BAAC5AD61CEDF0720077CC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAAC5AD71CEDF0720077CC85 /* Build configuration list for PBXNativeTarget "SwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				BAAC5AD91CEDF0720077CC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAAC5ADA1CEDF0720077CC85 /* Build configuration list for PBXNativeTarget "SwiftDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				BAAC5ADC1CEDF0720077CC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

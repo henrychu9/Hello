@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="D41-ja-SuX" customClass="MyTableViewCell" customModule="SwiftDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D41-ja-SuX" id="tG0-D9-o6H">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSW-JS-wEi">
+                        <rect key="frame" x="8" y="8" width="320" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76w-vr-cas">
+                        <rect key="frame" x="8" y="37" width="320" height="18"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="76w-vr-cas" firstAttribute="top" secondItem="hSW-JS-wEi" secondAttribute="bottom" constant="8" id="5te-tV-Sy4"/>
+                    <constraint firstItem="76w-vr-cas" firstAttribute="top" secondItem="hSW-JS-wEi" secondAttribute="bottom" constant="8" id="G9b-WM-oyb"/>
+                    <constraint firstItem="hSW-JS-wEi" firstAttribute="leading" secondItem="tG0-D9-o6H" secondAttribute="leadingMargin" id="K7q-aC-Hvw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="76w-vr-cas" secondAttribute="trailing" id="NQv-tc-R4C"/>
+                    <constraint firstItem="hSW-JS-wEi" firstAttribute="top" secondItem="tG0-D9-o6H" secondAttribute="topMargin" id="Qnx-SA-jfK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hSW-JS-wEi" secondAttribute="trailing" id="fih-ZG-naY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="76w-vr-cas" secondAttribute="bottom" constant="4" id="gW8-Mx-loK"/>
+                    <constraint firstItem="76w-vr-cas" firstAttribute="leading" secondItem="tG0-D9-o6H" secondAttribute="leadingMargin" id="sAW-zX-QOv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="hSW-JS-wEi" id="eVb-rx-1cv"/>
+                <outlet property="view" destination="76w-vr-cas" id="eRm-ZR-sFt"/>
+            </connections>
+            <point key="canvasLocation" x="365" y="268"/>
+        </tableViewCell>
+    </objects>
+</document>
